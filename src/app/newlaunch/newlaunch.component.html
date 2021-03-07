@@ -1,0 +1,24 @@
+
+<div class="Flex-container">
+
+  <section class="s1"><app-header></app-header></section>
+
+  <section class="s2"><span>Our New Launches</span></section>
+
+
+
+  <div class="div1" *ngFor = "let item of products">
+
+    <h1 style="font-family:Georgia, 'Times New Roman', Times, serif;text-shadow: gray 1px 1px; ;">{{item.name}}</h1>
+     <img src="assets/images/{{item.img}}">
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">${{item.price}}<button (click)="addToCart(item)"> <i class="fas fa-shopping-cart"></i></button></h1>
+
+  </div>
+  <!-- <button (click)="getitem()">submit</button> -->
+  <div *ngFor="let itemm of a">
+    <h1 style="font-family:Georgia, 'Times New Roman', Times, serif;text-shadow: gray 1px 1px; ;">{{itemm.name}}</h1>
+     <img src="assets/images/{{itemm.img}}">
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">${{itemm.price}}</h1>
+
+  </div>
+</div>

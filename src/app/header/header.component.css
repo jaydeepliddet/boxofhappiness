@@ -1,0 +1,248 @@
+img.logo
+{
+  width:200px;
+  height: 200px;
+  padding: 20px;
+  transition: background-color 2s;
+
+
+
+}
+
+.logo:hover{
+  background-color: yellow;
+}
+
+
+
+div.nav{
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+display: inline;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-top: auto;
+}
+
+a.links{
+  padding: 30px;
+  text-decoration: none;
+  color: black;
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+}
+
+
+
+.links:hover{
+  color: red;
+}
+
+.dropA {
+  /* background-color: #4CAF50; */
+  text-decoration: none;
+  color:black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 2em;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 2em;
+}
+
+.dropdown-content a:hover
+ {
+   background-color: #ddd;
+  }
+
+.dropdown:hover .dropdown-content
+ {
+   display: block;
+
+  }
+
+.dropdown:hover .dropA
+{
+  color: red;
+}
+
+.dropdown:hover .dropdown-content a:hover
+ {
+   color: red;
+
+
+
+  }
+
+  @keyframes mymove {
+    50% {color:rgb(255, 204, 77);}
+
+  }
+
+
+  @media screen and (max-width: 1280px)
+  {
+    html{
+      font-size: 75%;
+    }
+    .nav{
+      max-width: 100%;
+    }
+    .log
+    {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1680px)
+  {
+    html{
+      font-size: 75%;
+    }
+    .nav{
+      max-width: 100%;
+    }
+    .log
+    {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 960px)
+  {
+    html{
+      font-size: 75%;
+    }
+    .nav{
+      max-width: 100%;
+    }
+    .log
+    {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 840px)
+  {
+    html{
+      font-size: 75%;
+    }
+    .nav{
+      max-width: 100%;
+    }
+    .log
+    {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 700px)
+  {
+    html{
+      font-size: 45%;
+    }
+    .nav{
+      max-width: 100%;
+
+    }
+    .log
+    {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px)
+  {
+    html{
+      font-size: 45%;
+    }
+    .nav{
+      max-width: 100%;
+
+
+    }
+    .log
+    {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 500)
+  {
+    html{
+      font-size: 45%;
+    }
+    .nav{
+      max-width: 100%;
+
+
+    }
+    .log
+    {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 400)
+  {
+    html{
+      font-size: 45%;
+    }
+    .nav{
+      max-width: 100%;
+
+
+    }
+    .log
+    {
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 300)
+  {
+    html{
+      font-size: 45%;
+    }
+    .nav{
+      max-width: 100%;
+
+    }
+    .log
+    {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 200)
+  {
+    html{
+      font-size: 45%;
+    }
+    .log
+    {
+      width: 100%;
+    }
+
+  }

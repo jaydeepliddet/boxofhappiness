@@ -1,0 +1,39 @@
+
+
+
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <strong><span class="sp2" id="chocolates">Our chocolates Products </span></strong> -->
+  <div class="divsp1"><p class="sp1">Our Products</p></div>
+<div class="Flex-container" >
+
+
+  <div class="div1" *ngFor = "let item of products">
+
+    <img src="assets/images/{{item.img}}">
+
+    <h1 style="font-family:Georgia, 'Times New Roman', Times, serif;text-shadow: gray 1px 1px; ;">{{item.name}}</h1>
+
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">${{item.price}} </h1>
+
+
+  </div>
+
+</div>
+
+<div class="offer">
+
+      <p class="spof">Offers On chocolates</p>
+     <p class="pof">Get 5% Offer</p>
+       <p class="pof1">On Any chocolates Items</p>
+
+      <img class="ch5" src="assets\images\ch5.png" alt="not found">
+
+</div>
+
+
+
+</html>
+
+
+
